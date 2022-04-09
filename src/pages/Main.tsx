@@ -1,9 +1,12 @@
-import { useState } from 'react'
+import Frontend from '../templates/Frontend'
 
 function Main() {
   return (
     <div>
-      <h1>teste</h1>
+      <Frontend>
+        Lorem Ipsum
+        <p>hello my dear stalker</p>
+      </Frontend>
     </div>
   )
 }
