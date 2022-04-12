@@ -13,7 +13,9 @@ export const SectionCard = styled.section`
     background-repeat: no-repeat; 
     background-color: #313131;
     background-size: cover;
-    justify-content: center;
-    text-align: center;
 
+`
+export const SectionAbout = styled.section`
+    height: auto;
+    background-color: #707070;
 `
