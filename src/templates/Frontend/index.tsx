@@ -1,5 +1,5 @@
-import * as S from './styles'
-
+import * as S from './styles';
+import Header from '../../organisms/Header';
 
 type FrontendProps = {
     children: React.ReactNode;
@@ -8,7 +8,9 @@ type FrontendProps = {
 const Frontend = ({children} : FrontendProps) => {
  return(
      <>
-        <S.SectionHome>{children}</S.SectionHome>
+        <S.SectionHome>
+            <Header></Header>
+        </S.SectionHome>
      </>
  )
 }
