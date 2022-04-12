@@ -8,3 +8,12 @@ export const SectionHome = styled.section`
     text-align: center;
 
 `
+export const SectionCard = styled.section`
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-color: #313131;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+
+`

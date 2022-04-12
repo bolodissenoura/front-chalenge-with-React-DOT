@@ -11,6 +11,9 @@ const Frontend = ({children} : FrontendProps) => {
         <S.SectionHome>
             <Header></Header>
         </S.SectionHome>
+        <S.SectionCard>
+            <h1>CARD TEST</h1>
+        </S.SectionCard>
      </>
  )
 }
